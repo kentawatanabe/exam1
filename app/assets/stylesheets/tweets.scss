@@ -1,0 +1,99 @@
+.wrapper{
+  margin-bottom: 74px;
+  padding: 20px 20px 20px 35px;
+  .row{
+    border-bottom: 1px solid #66CCFF;
+    padding: 20px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+}
+input[type="submit"].btn-block{
+    margin: 15px 0;
+}
+.container{
+    padding-bottom: 85px;
+}
+
+header{
+    width:100%;
+    background-color:#0099FF;
+    height:54px;
+}
+
+.navbar-default {
+    border: 0;
+}
+.navbar {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 0px;
+}
+.navbar-default {
+  .navbar-brand {
+    color: #ccc;
+    &:hover {
+      color: white;
+    }
+  }
+  .navbar-nav > li > a {
+    color: #ccc;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+  .navbar-nav > .open > a {
+    background-color: transparent;
+    color: white;
+    &:hover, &:focus {
+      background-color: transparent;
+      color: white;
+    }
+  }
+}
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open > li > a {
+    color: #ccc;
+    text-align: center;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+  .navbar-default .navbar-toggle {
+    background-color: transparent;
+    &:hover, &:focus {
+      background-color: transparent;
+    }
+  }
+}
+.navbar-nav{
+    z-index: 999;
+}
+html{
+    position:relative;
+    min-height:100%
+}
+body{
+    text-align:center;
+}
+footer{
+  width: 100%;
+  background-color: #0099FF;
+  padding: 10px 0 10px 0;
+  color: white;
+  margin: auto;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.logo_mark{
+  width: 70%;
+  height: 70%;
+}
+#notice{
+    color: 	#F0F8FF;
+    font-size: 20px;
+    text-align: left;
+    margin: 15px;
+}
